@@ -64,13 +64,13 @@
 ## Быстрая установка одной командой
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/your-repo/main/bedolaga.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Case211/remnawave-bedolaga-telegram-bot/main/bedolaga.sh | sudo bash
 ```
 
 Или скачайте и запустите:
 
 ```bash
-wget https://raw.githubusercontent.com/your-repo/main/bedolaga.sh
+wget https://raw.githubusercontent.com/Case211/remnawave-bedolaga-telegram-bot/main/bedolaga.sh
 chmod +x bedolaga.sh
 sudo ./bedolaga.sh
 ```
