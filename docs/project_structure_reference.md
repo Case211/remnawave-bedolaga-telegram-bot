@@ -3315,6 +3315,9 @@
 - `tests/cabinet/test_telegram_consent_keeps_credential.py` — Python-модуль
   Классы: нет
   Функции: `test_widget_428_leaves_the_payload_unconsumed`, `test_widget_retry_with_consent_consumes_payload_once_and_creates_account`, `test_widget_existing_user_is_still_one_time`, `test_oidc_428_leaves_the_token_unconsumed`, `test_oidc_retry_with_consent_consumes_token_once_and_creates_account`, `test_oidc_existing_user_is_still_one_time`
+- `tests/cabinet/test_telegram_login_claims_phantom.py` — Python-модуль
+  Классы: нет
+  Функции: `test_phantom_is_claimed_instead_of_creating_a_second_account`, `test_without_phantom_user_is_created_as_before`, `test_without_username_phantom_is_not_even_looked_up`, `test_lost_claim_race_returns_the_existing_user` — claim_phantom вернул (False, existing): telegram_id уже завёл бот — берём его запись., `test_failed_claim_without_fallback_falls_through_to_create`
 - `tests/cabinet/test_telegram_widget_replay.py` — Python-модуль
   Классы: нет
   Функции: `test_widget_login_is_one_time_and_24h`, `test_widget_link_is_one_time_and_24h`
