@@ -3366,7 +3366,7 @@
   Функции: `test_every_projection_reads_the_grace_marker_after_the_panel_snapshot`
 - `tests/contracts/test_public_registration_gate.py` — Python-модуль
   Классы: нет
-  Функции: `test_every_public_user_mutation_is_gated_or_narrowly_trusted`, `test_legacy_guest_find_or_create_wrapper_cannot_reappear_in_public_routes`, `test_registration_twins_bind_the_locked_gift_symmetrically`, `test_no_admission_branch_binds_the_locked_gift_twice`, `test_registration_twins_never_bind_the_gift_unguarded` — A raw bind_locked_gift in a twin would surface a lost race as a 500, not a denial.
+  Функции: `test_every_public_user_mutation_is_gated_or_narrowly_trusted`, `test_gated_helpers_are_called_only_after_the_gate`, `test_legacy_guest_find_or_create_wrapper_cannot_reappear_in_public_routes`, `test_registration_twins_bind_the_locked_gift_symmetrically`, `test_no_admission_branch_binds_the_locked_gift_twice`, `test_registration_twins_never_bind_the_gift_unguarded` — A raw bind_locked_gift in a twin would surface a lost race as a 500, not a denial.
 - `tests/contracts/test_reachability_route_reads_real_panel_fields.py` — Python-модуль
   Классы: нет
   Функции: `test_route_reads_only_fields_that_exist_on_panel_dataclasses`
