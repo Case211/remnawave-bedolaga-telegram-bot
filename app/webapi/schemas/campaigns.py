@@ -71,6 +71,7 @@ class CampaignCreateRequest(CampaignBase):
         return value
 
     @validator('discount_percent', always=True)
+    @classmethod
     def validate_discount_percent(cls, value: int | None, values: dict):
         if values.get('bonus_type') == 'discount' and not value:
             raise ValueError('discount_percent must be set for discount bonus')
